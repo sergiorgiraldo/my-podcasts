@@ -33,7 +33,7 @@ export default function Home(props) {
                   </a>
                 </td>
                 <td>
-                  Podcast: <b>{c.title}</b><br/>
+                  Podcast: <a href={prLink(c.pr_id)} target="_blank"><b>{c.title}</b></a><br/>
                   Category: <b>{c.category.replace("/", " ").replace("/", " ")}</b> <br/>
                   Description: <b>{c.pr_desc}</b> <br/>
                 </td>
